@@ -1,0 +1,158 @@
+@charset "utf-8";
+#main{
+	position: relative;
+    z-index: 1;
+    padding-top: 25px;
+    background-attachment: fixed;
+    /*background-color: #F4D79D;*/
+}
+
+#main::before{
+	content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	width: 100%;
+	height: 100%;
+
+	background: linear-gradient(to top, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0)), url("../img/bgpattern12.jpg");
+	background-size: cover; 
+	background-repeat: no-repeat;	
+    color: rgba(255,255,255,1);
+    opacity: 0.2;
+    
+}
+
+#nav {
+	width: 100px;
+	height: 35px;
+	background: white;
+	margin-right: 30px;
+	float: right;
+	border-radius: 10px;
+}
+
+#login-img {
+	width: 35px;
+	height: 35px;
+	border-radius: 5px 0px 0px 5px;
+}
+
+#logout-button, #mypage-button{
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+#logout-button{
+	font-weight: bold;
+	width:65px;
+	height: 35px;
+}
+
+.wishlist, .reserve {
+	border: 1px solid black;
+	border-radius: 8px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #C7D8DC;
+	margin-top: 15px;
+}
+
+.wishlist-item, .reserve-item {
+	display: flex;
+}
+
+.wishlist-item>img, .reserve-item>img {
+	width: 200px;
+	height: 200px;
+	border-radius: 8px;
+	padding: 10px;
+}
+
+.wishlist-item-text, .reserve-item-text {
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.wishlist-item-icon>button>img, .reserve-item-icon>button>img {
+	width: 32px;
+	height: 32px;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+
+.wishlist-title, .reserve-title {
+	font-size: 32px;
+	letter-spacing: 4px;
+	word-spacing: 3px;
+	font-weight: bold;
+}
+
+.wishlist-location, .reserve-location {
+	margin-top: 5px;
+	font-size: 22px;
+	font-weight: normal;
+}
+
+.wishlist-price, .reserve-price {
+	margin-top: 5px;
+	font-style: italic;
+}
+
+#reserve-info {
+	margin-top: 30px;
+	width: 100%;
+	background-color: blue;
+	display: flex;
+  	align-content: space-around;
+  	flex-wrap: wrap;
+}
+
+#my-info {
+	padding-top: 20px;
+	width: 50%;
+	padding: 15px;
+	border: 1px solid black;
+	border-radius: 8px;
+	background-color: #C7D8DC;
+	margin-bottom: 50px;
+}
+
+.my-info-email, .my-info-name, .my-info-id, .my-info-pw, .my-info-pw2, .my-info-phone {
+	margin-top: 5px;
+	padding: 5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	font-size: 16px;
+}
+
+.col-sm-4 {
+	margin-top: 20px;
+}
+
+#reserve-info>img, #my-info>img {
+	width: 300px;
+	height: 300px;
+	margin: auto;
+}
+
+.poster {
+	width: 100px;
+	height: 100px;
+	margin: auto;
+}
+
+h1 {
+	font-family: "Edu VIC WA NT Beginner", cursive;
+  	font-optical-sizing: auto;
+  	font-weight: bold;
+  	font-style: normal;
+  	text-align: left;
+  	padding-top: 20px;
+  	padding-bottom: 20px;
+}

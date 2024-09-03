@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- JQuery 필! -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="./css/index.css" />
+	<link rel="stylesheet" href="./css/main.css" />
+	
+	<!-- slick css -->
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<!-- slick css-theme 필! -->
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+	
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+	
+	<!-- slick js -->
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	
+	<!-- chartJs -->
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	<script src="https://www.gstatic.com/charts/loader.js"></script>
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap" rel="stylesheet">
+	<link rel="icon" href="img/favicon.jpg">
+	<title>UTOPIA</title>
+
+</head>
+<body>
+  <div class="modal fade" id="messageModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Message</h4>
+          <button type="button" class="close" data-dismiss="modal">×</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body" id="message">
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+<!-- The Modal -->
+  <div class="modal fade" id="loginModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Login</h4>
+          <button type="button" class="close" data-dismiss="modal">×</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">	
+          ID : <input type="text" placeholder="ID" id="id" name="id">
+          <br/><br/>
+          PW : <input type="password" placeholder="Password" id="pwd" name="pwd">
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal" id="login">Login</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+	<audio autoplay controls loop style="display: none;" id='background-audio'>
+    <source src="./mp3/806027_잔잔히 밀려오는 파도소리.mp3" type="audio/mp3">
+</audio>
+	<div class="jumbotron">
+  <!-- Button to Open the Modal -->
+  <div class="d-flex" id="nav">
+	  <button type="button" class="btn" id="mypage-button">
+	    <img src="./img/login.jpg" id="login-img"> 
+	  </button>
+	  <button type="button" class="btn btn-light" id="login-button">
+	    Login
+	  </button>
+	  <button type="button" class="btn btn-light rounded-right" id="sound-button">
+	    <img src="./img/mute.png" id="sound-img"> 
+	  </button>
+	</div>
+		<div class="container"> 
+			<div class="header">
+				<a href="./index.html" id="title">UTOPIA</a>
+			</div>
+			<div class="search input-group">
+				<input type="text" class="form-control" placeholder="검색" id="search">
+				<div class="input-group-append">
+					<button class="btn btn-success">Go</button>
+				</div>
+			</div>
+	
+		</div><!-- container 끝 -->
+	</div> <!-- jumbotron 끝 -->
+	
+	<div id="main">
+	<div class="d-flex justify-content-between">
+		<div id="adv">
+		<!-- <iframe src="https://player.vimeo.com/video/122279472?h=bd7dcd2eed&autoplay=1&muted=1&controls=0&loop=1" frameborder="0" allowfullscreen></iframe> -->
+		</div>
+		<div class="container">
+			<div id="popCity" class="text-center">
+				<h2>속도를 늦추고 싶은 여행자들이 모여드는 곳</h2>
+				<div id="city">
+					
+				</div>
+			</div>
+			<div id="product" class="text-center d-flex flex-wrap">
+				
+			</div>
+			<button type="button" class="btn btn-outline-secondary" id="more" style="margin-left: 55px">더보기</button>
+			
+			<div class="modal fade" id="detailsModal">
+			    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+			     	<div class="modal-content">
+			      
+			        	<!-- Modal Header -->
+			        	<div class="modal-header">
+			        		<h4 class="modal-title">상세정보</h4>
+			        		<button type="button" class="close" data-dismiss="modal">&times;</button>
+			       		</div>
+			        
+			        	<!-- Modal body -->
+			        	<div class="modal-body">
+			        		<div id="details">
+								<div id="deImages" class="d-flex">
+									<div id="mainImage">
+										<img src="" />
+									</div>
+									<div id="subImage" class="d-flex flex-wrap">
+										<img src="" />
+										<img src="" />
+										<img src="" />
+										<img src="" />
+									</div>
+								</div>
+								<div id="detail">
+									<h1 id="name"></h1>
+									<h2 id="address"></h2>
+									<h3 id="moredetail"></h3>
+									<div class="form-check-inline">
+					     				<label class="form-check-label" for="bus">
+					      					<input type="checkbox" class="form-check-input conv" id="bus" name="bus" value="bus" onclick="return false;">교통편의성
+					      				</label>
+					    			</div>
+					    			<div class="form-check-inline">
+					     				<label class="form-check-label" for="food">
+					        				<input type="checkbox" class="form-check-input conv" id="food" name="food" value="food" onclick="return false;">식사제공
+					      				</label>
+					    			</div>
+					    			<div class="form-check-inline">
+					      				<label class="form-check-label" for="WIFI">
+					        				<input type="checkbox" class="form-check-input conv"  id="WIFI" name="WIFI" value="WIFI" onclick="return false;">WIFI
+					      				</label>	
+					    			</div>
+					    			<div class="form-check-inline">
+					      				<label class="form-check-label" for="sale">
+					        				<input type="checkbox" class="form-check-input conv"  id="sale" name="sale" value="sale" onclick="return false;">장기예약할인
+					      				</label>
+					    			</div>
+					    			<br>
+									<div id="chart">
+										<canvas id="line-chart"></canvas>
+										<div class="d-flex">
+											<div id="pie-chart"></div>
+											<canvas id="bar-chart" width="300px" height="300px"></canvas>
+										</div>
+									</div>
+									<input type="date" id="sDate">
+									<input type="date" id="eDate">
+								</div>
+							</div>
+						</div>
+			        	<!-- Modal footer -->
+			        	<div class="modal-footer">
+			        		<div id="price"></div>
+							<button class="btn btn-secondary" id="wish">위시리스트 추가</button>
+							<button class="btn btn-secondary" id="reserve">예약하기</button>
+			         		<button type="button" class="btn btn-secondary" data-dismiss="modal">뒤로가기</button>
+			        	</div>
+			        
+			        	</div>
+			      	</div>
+			    </div>
+			</div>
+			<div id="a">
+			
+			</div>
+		</div>
+	</div>
+	
+	<div class="container-fluid " id="footer">
+  		<div class="row">
+    		<div class="col-sm-4">
+    			<div id="footer-logo">
+      				<img src="./img/favicon.jpg" id="footer-img">
+      			</div>
+   			</div>
+	    	<div class="col-sm-4">
+	      		<h3>사업자 정보</h3>
+	      		<p>상호명 : (주) 비바리퍼블리카</p>
+				<p>대표자 : 황믿음</p>
+				<p>사업자 등록번호 : 1004-8282</p>
+				<p>주소 : 서울특별시 종로구 찬영길 703길 10</p>
+	    	</div>
+	    	<div class="col-sm-4">
+	      		<h3>고객센터</h3>        
+	      		<p>3333-20000</p>
+	      		<p>asia@hotelpass.com</p>
+	    	</div>
+  		</div>
+	</div>
+</body>
+
+<script src="./js/index.js"></script>
+</html>

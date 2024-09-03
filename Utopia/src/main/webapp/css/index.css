@@ -1,0 +1,147 @@
+@charset "utf-8";
+#nav {
+	width: 135px;
+	height: 35px;
+	background: white;
+	margin-right: 30px;
+	float: right;
+	border-radius: 10px;
+}
+
+#login-img, #sound-img {
+	width: 35px;
+	height: 35px;
+	border-radius: 5px 0px 0px 5px;
+	padding: 0;
+}
+
+#login-button, #mypage-button, #sound-button {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+#login-button{
+	font-weight: bold;
+	width: 65px;
+	height: 35px;
+}
+
+.search {
+	width: 600px !important;
+	height: 50px;
+	background-color: #fff;
+	margin: 30px auto;
+	border-radius: 150px;	
+}
+
+.search>input{
+	height: 50px;
+}
+
+#city {
+	width: 100%;
+	height: 500px;
+}
+
+#product {
+	margin-top: 30px;
+	width: 100%;
+  		
+}
+
+#product>div:nth-child(n+7) {
+	display: none;
+}
+
+#product>div {
+	padding: 35px;
+}
+
+img{
+	width: 300px;
+	height: 300px;
+	padding: 20px;
+	border-radius: 20%;
+}
+.slick-next:before{
+	color: black !important;
+	font-size: 25px !important;
+}
+
+.slick-prev:before{
+	color: black !important;
+	font-size: 25px !important;
+}
+
+.slick-track{
+	height: 400px;
+	margin-top: 50px;
+}
+
+.slick-center{
+	transform: scale(1.2);
+	padding: 10px 40px;
+}
+
+.slick-slide{
+	text-align: center;
+}
+
+.slick-slide>img{
+	width: 300px;
+	height: 300px;
+}
+
+#product>img{
+	margin: auto;
+}
+
+#product img:hover, .slick-slide>img:hover{
+	cursor: pointer;
+}
+
+#mainImage{
+	height: 300px;
+	flex:2;
+}
+
+#subImage{
+	height: 300px;
+	flex:3;		
+}
+
+#mainImage>img{
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+#subImage>img{
+	width: 50%;
+	height: 50%;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+h1 {
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.chart-container{
+	width: 700px;
+	height: 500px;
+}
+
+canvas{
+	height: 500px;
+}
+
+
+#footer {
+	margin-top: 30px;
+}

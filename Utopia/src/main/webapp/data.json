@@ -1,0 +1,145 @@
+{
+	"list" : [
+		{
+			"img": "./img/city1.jpg",
+			"name" : "BlowLight",
+			"price" : "300",
+			"address" : "포르투갈 리스본",
+			"moredetail" : "600년전 대항해시대를 열었던 포르투갈의 바닷바람과 풍경을 맛보며 힐링할 수 있는 콜럼버스의 정착지",
+			"conv" : "food,WIFI",
+			"line" : "3,5,7,2",
+			"pie" : "72",
+			"bar" : "5,7,2,5,8,6"
+		},
+		
+		{
+			"img": "./img/city2.jpg",
+			"name" : "PocariSweater",
+			"price" : "500",
+			"address" : "그리스 산토리니",
+			"moredetail" : "포카리스웨트처럼 상큼발랄깜찍한 기분으로 슬로우 라이프와 역동적인 활동을 함께 즐길 수 있는 후회없는 선택",
+			"conv" : "bus,WIFI",
+			"line" : "7,11,5,3",
+			"pie" : "32",
+			"bar" : "9,6,9,0,8,16"
+		},
+		
+		{
+			"img": "./img/city3.jpg",
+			"name" : "Navigator",
+			"price" : "653",
+			"address" : "키프로스섬",
+			"moredetail" : "기원전 1600년전 부터 정착해 살았던 지중해 동부의 섬으로 슬로우 라이프를 느껴보세요",
+			"conv" : "food,WIFI,sale",
+			"line" : "6,2,3,8",
+			"pie" : "18",
+			"bar" : "6,1,8,6,0,0"
+		},
+		
+		{
+			"img": "./img/city4.jpg",
+			"name" : "MISG",
+			"price" : "424",
+			"address" : "이탈리아 시칠리아섬",
+			"moredetail" : "이탈리아의 남부의 진수를 느낄 수 있는 시칠리아섬, 정부의 이민정책으로 시민권획득까지 한번에 느껴보세요",
+			"conv" : "food",
+			"line" : "6,6,7,3",
+			"pie" : "88",
+			"bar" : "3,7,4,5,8,6"
+		},
+		
+		{
+			"img": "./img/city5.jpg",
+			"name" : "AraNight",
+			"price" : "824",
+			"address" : "튀니지 튀니스",
+			"moredetail" : "그리스의 산토리니섬과 비슷한 튀니스 그리스의 문명과 비교하여 북아프리카진수를 만끽해보세요",
+			"conv" : "food,WIFI",
+			"line" : "3,5,1,2",
+			"pie" : "72",
+			"bar" : "5,7,2,5,8,6"
+		},
+		
+		{
+			"img": "./img/city6.jpg",
+			"name" : "UnderGround",
+			"price" : "254",
+			"address" : "스페인 이비자",
+			"moredetail" : "이비자 섬에서의 클럽파티는 진정한 이비자를 느끼는것이 아니다 파티 속 숨겨진 이비자의 아름다움을 찾아 떠나보세요",
+			"conv" : "food,WIFI",
+			"line" : "7,11,5,3",
+			"pie" : "32",
+			"bar" : "9,6,9,0,8,16"
+		},
+		
+		{
+			"img": "./img/city7.jpg",
+			"name" : "Together",
+			"price" : "947",
+			"address" : "영국 세인트헬레나섬",
+			"moredetail" : "나폴레옹이 죽은 곳으로 유명한 세인트헬레나섬 나폴레옹의 마지막을 느껴볼 수 있는 세인트 헬레나섬으로 출바알",
+			"conv" : "food,WIFI",
+			"line" : "7,11,5,3",
+			"pie" : "32",
+			"bar" : "9,6,9,0,8,16"
+		},
+		
+		{
+			"img": "./img/city8.jpg",
+			"name" : "FollowMeBoy",
+			"price" : "432",
+			"address" : "영국 맨",
+			"moredetail" : "F1으로 유명한 영국의 맨섬 도시가 끝난후 슬로우라이프를 즐기고 있는 중세시대로 떠나보세요",
+			"conv" : "bus,WIFI",
+			"line" : "7,11,5,3",
+			"pie" : "32",
+			"bar" : "9,6,9,0,8,16"
+		},
+		
+		{
+			"img": "./img/city9.jpg",
+			"name" : "FlowerFather",
+			"price" : "847",
+			"address" : "두브로브니크",
+			"moredetail" : "꽃보다할배로 유명해진 두브로브니크의 향연을 함꼐해보세요 지상낙원으로 불리는 이유가 다니까?",
+			"conv" : "bus,WIFI",
+			"line" : "7,11,5,3",
+			"pie" : "32",
+			"bar" : "9,6,9,0,8,16"
+		},
+		
+		{
+			"img": "./img/city10.jpg",
+			"name" : "Corea",
+			"price" : "735",
+			"address" : "북마케도니아 스코페",
+			"moredetail" : "중세도시를 유지하고 있는 북마케도니아로 배낭을 메고 준비하세요 마치 조선시대에 와있는 것 같은 느낌을 누려보세요",
+			"conv" : "bus,WIFI",
+			"line" : "7,11,5,3",
+			"pie" : "32",
+			"bar" : "9,6,9,0,8,16"
+		},
+		{
+			"img": "./img/city11.jpg",
+			"name" : "IAAe",
+			"price" : "325",
+			"address" : "러시아 칼리닌그라드",
+			"moredetail" : "세계 최고 독일의 철학자 칸트가 평생을 살았던 칼리닌그라드로 슬로우라이프를 즐기러 와보세요 마치 똑똑해지는 기분이랄까?",
+			"conv" : "bus,WIFI",
+			"line" : "7,11,5,3",
+			"pie" : "32",
+			"bar" : "9,6,9,0,8,16"
+		},
+		{
+			"img": "./img/city12.jpg",
+			"name" : "Mikene",
+			"price" : "258",
+			"address" : "그리스 미코노스",
+			"moredetail" : "약 4000천개의 그리스의 섬 중에서 엄선한 아름답고 조용한 섬 미코노스섬에서 인생의 가치를 고민해보세요",
+			"conv" : "bus,WIFI",
+			"line" : "7,11,5,3",
+			"pie" : "32",
+			"bar" : "9,6,9,0,8,16"
+		}
+	]
+}

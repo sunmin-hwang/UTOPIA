@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- JQuery 필! -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/mypage.css" />
+	<link rel="stylesheet" type="text/css" href="./css/main.css" />
+	
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+	<link rel="icon" href="img/favicon.jpg">
+	<title>UTOPIA</title>
+</head>
+<body>
+	<div class="modal fade" id="messageModal">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<!-- Modal Header -->
+				<div class="modal-header">
+					<h4 class="modal-title">Message</h4>
+					<button type="button" class="close" data-dismiss="modal">×</button>
+				</div>
+				<!-- Modal body -->
+				<div class="modal-body" id="message">
+
+				</div>
+				<!-- Modal footer -->
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="modal fade" id="deleteModal">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<!-- Modal Header -->
+				<div class="modal-header">
+					<h4 class="modal-title">취소 확인</h4>
+					<button type="button" class="close" data-dismiss="modal">×</button>
+				</div>
+				<!-- Modal body -->
+				<div class="modal-body" id="message">
+					정말 취소하시겠습니까?
+				</div>
+				<!-- Modal footer -->
+				<div class="modal-footer">
+					<button type="button" class="btn btn-info btn-lg" id="delete">취소</button>
+					<button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">닫기</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="jumbotron">
+	<!-- Button to Open the Modal -->
+		<div class="d-flex" id="nav">
+			<button type="button" class="btn" id="mypage-button" onclick="location.href='./mypage.html'">
+				<img src="./img/login.jpg" id="login-img"> 
+			</button>
+			<button type="button" class="btn btn-light rounded-right" id="logout-button">
+				Logout
+			</button>
+		</div>
+		<div class="container">	 	
+			<div class="header">
+				<a href="./index.html" id="title">UTOPIA</a>
+			</div>
+
+
+
+
+
+
+
+
+		</div><!-- container 끝 -->
+	</div> <!-- jumbotron 끝 -->
+	<div id="main">
+	<div class="d-flex justify-content-between ">
+	<div id="adv"></div>
+	<div class="container">  	
+		<h1>WishList</h1>
+		<div id="wishlist-add">
+		
+		</div>
+		<hr />
+		<h1>Reserve-info</h1>
+		<div id="reserve-add">
+		
+		</div>
+		<hr />
+		<h1>my-info</h1>
+		<form id="my-info" class="clearfix">
+			<div class="my-info-email">
+				<label for="id">ID : </label>
+				<input type="text" id="id" class="style_border">
+			</div><br />
+			<div class="my-info-name">
+				<label for="name">이름 : </label>
+				<input type="text" id="name" class="style_border" value="이름이">
+			</div><br />
+			<div class="my-info-pw">
+				<label for="pwd">비밀번호 : </label>
+				<input type="password" id="pwd" class="style_border" placeholder="비밀번호">
+			</div><br />
+			<div class="my-info-pw2">
+				<label for="pwd2">비밀번호확인 : </label>
+				<input type="password" id="pwd2" class="style_border" placeholder="비밀번호확인">
+			</div><br />
+			<div class="my-info-phone">
+				<label for="phone">휴대폰번호 : </label>
+				<input type="text" id="phone" class="style_border" value="010-6566-5225">
+			</div><br />
+			<input type="button" class="btn btn-secondary float-right" value="수정하기" id="info-change">
+		</form>
+	</div>
+		<div id="a">
+	
+		</div>
+	</div>
+</div>
+	<div class="container-fluid " id="footer">
+		<div class="row">
+			<div class="col-sm-4">
+				<div id="footer-logo">
+					<img src="./img/favicon.jpg" id="footer-img">
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<h3>사업자 정보</h3>
+				<p>상호명 : (주) 비바리퍼블리카</p>
+				<p>대표자 : 황믿음</p>
+				<p>사업자 등록번호 : 1004-8282</p>
+				<p>주소 : 서울특별시 종로구 찬영길 703길 10</p>
+			</div>
+			<div class="col-sm-4">
+				<h3>고객센터</h3>        
+				<p>3333-20000</p>
+				<p>asia@hotelpass.com</p>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="./js/mypage.js"></script>
+</html>
