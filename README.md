@@ -21,7 +21,7 @@
 |  [황선민](https://github.com/sunmin-hwang) |  [김믿음](https://github.com/pleasebelieveme)  | 
 | :----------------------------------------------------: | :----------------------------------------------------: |
 | <img src ="https://avatars.githubusercontent.com/u/29170000?s=96&v=4" width="150" /> | <img src ="https://avatars.githubusercontent.com/u/146408987?s=96&v=4" width="150" /> |<br>
-| [메인페이지](##메인페이지) | [마이페이지](##마이페이지)|
+| [메인페이지](#메인페이지) | [마이페이지](#마이페이지)|
 
 <br>
 
@@ -39,11 +39,11 @@
 
 <img src="https://github.com/user-attachments/assets/dba153d9-2b3a-41c4-8db2-abb78078a60d" width="400"/>
 <br>
-<img src="https://github.com/user-attachments/assets/710d696a-d8a3-4dc0-b565-7f2261f8e78a">
+<img src="https://github.com/user-attachments/assets/710d696a-d8a3-4dc0-b565-7f2261f8e78a" width="400"/>
 
 <br>
 
 ### 마이페이지
 <img src="https://github.com/user-attachments/assets/73f1cd30-eafa-4191-8458-7af258e1bc62" width="400"/>
 <br>
-<img src="https://github.com/user-attachments/assets/17307e47-01a1-40a4-8193-1dac660d041f">
+<img src="https://github.com/user-attachments/assets/17307e47-01a1-40a4-8193-1dac660d041f" width="400"/>
