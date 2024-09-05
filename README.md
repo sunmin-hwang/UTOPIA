@@ -39,11 +39,11 @@
 
 <img src="https://github.com/user-attachments/assets/dba153d9-2b3a-41c4-8db2-abb78078a60d" width="400"/>
 
-<img src="https://github.com/user-attachments/assets/710d696a-d8a3-4dc0-b565-7f2261f8e78a" width="800"/>
+<img src="https://github.com/user-attachments/assets/710d696a-d8a3-4dc0-b565-7f2261f8e78a" width="600"/>
 
 <br>
 
 ### 마이페이지
 <img src="https://github.com/user-attachments/assets/73f1cd30-eafa-4191-8458-7af258e1bc62" width="400"/>
 
-<img src="https://github.com/user-attachments/assets/17307e47-01a1-40a4-8193-1dac660d041f" width="800"/>
+<img src="https://github.com/user-attachments/assets/17307e47-01a1-40a4-8193-1dac660d041f" width="600"/>
